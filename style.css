@@ -2,17 +2,18 @@ body {
     background-color: rgb(203, 153, 126);
     text-align: center;
     font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     color: ;
     font-family: 'Montserrat', sans-serif;
     font-style: initial;
-    background-color: rgb(221, 190, 169);
+    background-color: rgb(127, 85, 57);
     border-radius: 50px;
     text-align: center;
     padding: 10px;
-        
+    text-shadow:0px 0px 5px grey;    
     
 
 }
@@ -38,19 +39,23 @@ h1 {
 
 ul {
     text-align: left;
+    list-style: none;
     
 }
 
 p {
     text-align: left;
     
+
+    
 }
 
 h2 {
-    background-color: rgb(221, 190, 169);
+    background-color: rgb(127, 85, 57);
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
     padding: 5px;
+    text-shadow:0px 0px 5px grey; 
 }
 
 img {
@@ -62,10 +67,26 @@ img {
 }
 
 .link {
-    background-color: rgb(255, 232, 214);
+    background-color: rgb(221, 190, 169);
     padding: 5px 20px;
     border-radius: 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif
 
+}
+
+#softskills {
+    font-weight: bold;
+    background-color: rgb(221, 190, 169);
+    padding: 5px 10px;
+    font-style: normal;
+    border-radius: 5px;
+}
+
+#hardskills {
+    font-weight: bold;
+    background-color: rgb(221, 190, 169);
+    padding: 5px 10px;
+    font-style: normal;
+    border-radius: 5px;
 }
