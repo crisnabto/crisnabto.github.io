@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(203, 180, 200);
+    background-color: rgb(203, 153, 126);
     text-align: center;
     font-size: 19px;
 }
@@ -8,7 +8,7 @@ h1 {
     color: ;
     font-family: 'Montserrat', sans-serif;
     font-style: initial;
-    background-color: rgb(170, 160, 190);
+    background-color: rgb(221, 190, 169);
     border-radius: 50px;
     text-align: center;
      
@@ -47,7 +47,7 @@ p {
 }
 
 h2 {
-    background-color: rgb(170, 160, 190);
+    background-color: rgb(221, 190, 169);
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
 }
