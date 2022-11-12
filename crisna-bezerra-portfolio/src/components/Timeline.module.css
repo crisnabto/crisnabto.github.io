@@ -1,0 +1,44 @@
+.timeLineContainer{
+    animation: fadein 2s;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(108, 117, 125, 0.1);
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+.timeLineContainer span {
+    align-self: center;
+    margin: 10px 0 0 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.projectsContainer {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap:wrap; */
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-top: 0;
+}
+
+.projectsContainer p {
+    border: 1px solid black;
+    margin: 30px 50px 50px;
+    margin-left: 0;
+    width: 100%;
+    min-width: 200px;
+    height: 200px;
+}

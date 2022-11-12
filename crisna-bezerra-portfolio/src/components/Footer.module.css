@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    letter-spacing: 4px;
+    color: rgb(174, 174, 174);
+    font-size: 15px;
+}

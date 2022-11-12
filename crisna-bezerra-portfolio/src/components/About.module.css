@@ -1,0 +1,88 @@
+.aboutContainer {
+    animation: fadein 2s;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    background-color: rgba(108, 117, 125, 0.1);
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+.generalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 100%;
+    margin: 0 auto 30px auto;
+}
+
+.aboutContainer span {
+    align-self: center;
+    font-size: 30px;
+    padding: 20px;
+    /* height: 10%; */
+}
+
+.whoAmIContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-content: center; */
+    /* border: 1px solid yellow; */
+    width: 100%;
+    margin-bottom: 20px;
+    /* height: 18em; */
+}
+
+.whoAmIContainer h2 {
+    letter-spacing: 1.5px;
+    /* border: 1px solid green; */
+    margin-top: 0;
+    /* letter-spacing: 2px;
+    font-size: 30px;
+    padding-left: 20px; */
+}
+
+.whoAmIContainer p {
+    /* border: 1px solid green; */
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skillsContainer h2 {
+    letter-spacing: 1.5px;
+    /* border: 1px solid green; */
+    margin-top: 0;
+    /* letter-spacing: 2px;
+    font-size: 30px;
+    padding-left: 20px; */
+}
+
+.skillsContainer p {
+    /* border: 1px solid green; */
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    /* margin: 0;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding: 20px; */
+}
