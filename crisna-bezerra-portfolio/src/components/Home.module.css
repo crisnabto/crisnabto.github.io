@@ -1,0 +1,51 @@
+.homeContainer {
+    position: relative;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+.picture {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0,0,0, 0.6);
+    background-image: url(../../public/homePhoto2.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    transition: background-image 5s ease;
+}
+
+.portfolioContainer {
+    /* border: 1px solid blue; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    min-width: 80%;
+    flex-wrap: nowrap;
+    width: 80%;
+    font-weight: 900;
+    background: rgba(108, 117, 125, 0.7);
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 30%;
+    left: 50%;transform: translate(-50%, -50%);
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 20px;
+    margin-top: 1.2em;
+    margin-right: min(40%, 10%);
+}
+
+.portfolioContainer p {
+    min-width: 40%;
+    white-space: nowrap;
+    max-width: 90%;
+    overflow: hidden;
+    position: relative;
+    animation: fadein 5s;
+}

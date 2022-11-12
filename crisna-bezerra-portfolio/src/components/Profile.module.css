@@ -1,0 +1,72 @@
+body {
+    /* overflow: hidden; */
+    max-width: 100%;
+    height: auto;
+}
+
+.generalContainer {
+    display: flex;
+    /* border: 1px solid pink; */
+    justify-content: space-between;
+}
+
+.mainContainer {
+    /* border: 1px solid black; */
+    transition: transform 2s;
+    min-width: 800px;
+    width: 70%;
+    margin-left: 6em;
+    margin-right: 3em;
+    margin-top: 2em;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profileContainer {
+    display: flex;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    min-width: 300px;
+    width: 20%;
+    height: 600px;
+    margin-left: 3em;
+    margin-top: 2em;
+    background-color: rgba(108, 117, 125, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.infoContainer {
+    width: 35vw;
+    /* height: 60vh; */
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+.linksToPages {
+    font-size: larger;
+    letter-spacing: 2px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 40px;
+    height: 20px;
+}
+
+.infoContainer h1, span {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+}
+
+.picture {
+    border-radius: 100px;
+    min-width: 80%;
+    max-width: 70%;
+    height: 400px;
+    /* box-shadow: 30px; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
