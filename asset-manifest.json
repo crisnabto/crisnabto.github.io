@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/crisnabto.github.io/static/css/main.646edf7d.css",
-    "main.js": "/crisnabto.github.io/static/js/main.03b6bcc8.js",
-    "static/js/787.4a706765.chunk.js": "/crisnabto.github.io/static/js/787.4a706765.chunk.js",
-    "static/media/homePhoto2.jpg": "/crisnabto.github.io/static/media/homePhoto2.64df6f405733aee1fe05.jpg",
-    "index.html": "/crisnabto.github.io/index.html",
-    "main.646edf7d.css.map": "/crisnabto.github.io/static/css/main.646edf7d.css.map",
-    "main.03b6bcc8.js.map": "/crisnabto.github.io/static/js/main.03b6bcc8.js.map",
-    "787.4a706765.chunk.js.map": "/crisnabto.github.io/static/js/787.4a706765.chunk.js.map"
+    "main.css": "/static/css/main.74382dc9.css",
+    "main.js": "/static/js/main.97d5a363.js",
+    "static/js/787.4a706765.chunk.js": "/static/js/787.4a706765.chunk.js",
+    "static/media/homePhoto2.jpg": "/static/media/homePhoto2.64df6f405733aee1fe05.jpg",
+    "index.html": "/index.html",
+    "main.74382dc9.css.map": "/static/css/main.74382dc9.css.map",
+    "main.97d5a363.js.map": "/static/js/main.97d5a363.js.map",
+    "787.4a706765.chunk.js.map": "/static/js/787.4a706765.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.646edf7d.css",
-    "static/js/main.03b6bcc8.js"
+    "static/css/main.74382dc9.css",
+    "static/js/main.97d5a363.js"
   ]
 }
