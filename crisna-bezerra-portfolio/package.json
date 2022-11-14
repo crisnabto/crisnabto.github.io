@@ -1,7 +1,7 @@
 {
   "name": "crisna-bezerra-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://crisnabto.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
